@@ -1,81 +1,42 @@
-                                                      # \# 🚁 Custom-Built Autonomous UAV: ROS2 \& Edge AI Integration
+# 🚁 Custom-Built Autonomous UAV: ROS2 & Edge AI Integration
 
-# 
+## 📌 Project Overview
+This repository documents the mechanical fabrication, hardware assembly, and ongoing software integration of a custom-built autonomous Unmanned Aerial Vehicle (UAV). Unlike off-the-shelf drone kits, this quadcopter features a fully custom-designed frame using carbon fiber tubes and 3D-printed joints. The ultimate goal is to bridge traditional flight control systems with Edge AI computing by integrating an Nvidia Jetson Nano via ROS2 (Robot Operating System 2).
 
-# \## 📌 Project Overview
+## 📸 Hardware Showcase
 
-# This repository documents the mechanical fabrication, hardware assembly, and ongoing software integration of a custom-built autonomous Unmanned Aerial Vehicle (UAV). Unlike off-the-shelf drone kits, this quadcopter features a fully custom-designed frame using carbon fiber tubes and 3D-printed joints. The ultimate goal is to bridge traditional flight control systems with Edge AI computing by integrating an Nvidia Jetson Nano via ROS2 (Robot Operating System 2).
-
-# 
-
-# \## 📸 Hardware Showcase
-
-<img width="578" height="542" alt="UAV" src="https://github.com/user-attachments/assets/9e1ac3e6-6e1f-4100-a7a8-f4c01c6359a0" /><img width="992" height="992" alt="UAV+jetson" src="https://github.com/user-attachments/assets/37a0d479-a19c-4255-a59b-0220d604a112" />
+<img width="992" height="992" alt="UAV+jetson" src="https://github.com/user-attachments/assets/c8d953bc-6454-4d7e-96dd-a246115ace4b" />
+<img width="578" height="542" alt="UAV" src="https://github.com/user-attachments/assets/8998529b-9cf5-4a7f-8285-b8a14ddee658" />
 
 
-# \*(Note: Displaying the custom 16mm carbon fiber frame and 3D-printed mechanical joints).\*
+## 🛠️ Detailed Bill of Materials (BOM)
 
-# 
+**Avionics & Navigation:**
+- **Flight Controller (FC):** MicoAir H743 V2
+- **Companion Computer:** Nvidia Jetson Nano (for Edge AI processing)
+- **GPS Module:** BH-222Q
+- **Compass:** HMC5883L
 
-# \## 🛠️ Detailed Bill of Materials (BOM)
+**Propulsion & Power:**
+- **Motors:** 3115 - 900KV Brushless Motors
+- **Propellers:** 7-inch 3-blade props
+- **Battery:** LiPo 4S 5500mAh (Optimized for extended flight time and payload capacity)
 
-# 
+**Communication:**
+- **Transmitter:** RadioMaster Pocket
+- **Receiver:** ELRS 2.4GHz 
 
-# \*\*Avionics \& Navigation:\*\*
+**Mechanical & Structural:**
+- **Frame Arms & Landing Gear:** 16mm Carbon Fiber Tubes (Custom cut to 25cm arms).
+- **Joints & Mounts:** Fully custom 3D-printed structural parts (motor mounts, FC/ESC base, tube connectors, and propeller guards).
 
-# \- \*\*Flight Controller (FC):\*\* MicoAir H743 V2
+## 👨‍💻 My Core Contributions (Hardware & Mechanics)
+As the primary hardware/mechanical engineer for this system, my contributions include:
+- **Custom Frame Fabrication:** Rejected standard pre-built frames in favor of designing a modular quadcopter frame. Sourced 16mm carbon fiber tubes and precisely cut them for the arms and landing gear.
+- **Advanced 3D Modeling:** Utilized Autodesk Fusion to design all structural nodes. This includes the central electronics base for the FC/ESC, secure motor mounts, and custom joints that seamlessly clamp onto the carbon fiber tubes. 
+- **Assembly & Integration:** Executed the complete physical build, precision soldering for high-current propulsion systems, and organized cable management to minimize electromagnetic interference (EMI) with the compass and GPS.
+- **Next Steps:** Currently researching serial communication (MAVLink/Micro-XRCE-DDS) to bridge the Nvidia Jetson Nano with the MicoAir FC for ROS2-based autonomous navigation.
 
-# \- \*\*Companion Computer:\*\* Nvidia Jetson Nano (for Edge AI processing)
-
-# \- \*\*GPS Module:\*\* BH-222Q
-
-# \- \*\*Compass:\*\* HMC5883L
-
-# 
-
-# \*\*Propulsion \& Power:\*\*
-
-# \- \*\*Motors:\*\* 3115 - 900KV Brushless Motors
-
-# \- \*\*Propellers:\*\* 7-inch 3-blade props
-
-# \- \*\*Battery:\*\* LiPo 4S 5500mAh (Optimized for extended flight time and payload capacity)
-
-# 
-
-# \*\*Communication:\*\*
-
-# \- \*\*Transmitter:\*\* RadioMaster Pocket
-
-# \- \*\*Receiver:\*\* ELRS 2.4GHz 
-
-# 
-
-# \*\*Mechanical \& Structural:\*\*
-
-# \- \*\*Frame Arms \& Landing Gear:\*\* 16mm Carbon Fiber Tubes (Custom cut to 25cm arms).
-
-# \- \*\*Joints \& Mounts:\*\* Fully custom 3D-printed structural parts (motor mounts, FC/ESC base, tube connectors, and propeller guards).
-
-# 
-
-# \## 👨‍💻 My Core Contributions (Hardware \& Mechanics)
-
-# As the primary hardware/mechanical engineer for this system, my contributions include:
-
-# \- \*\*Custom Frame Fabrication:\*\* Rejected standard pre-built frames in favor of designing a modular quadcopter frame. Sourced 16mm carbon fiber tubes and precisely cut them for the arms and landing gear.
-
-# \- \*\*Advanced 3D Modeling:\*\* Utilized Autodesk Fusion to design all structural nodes. This includes the central electronics base for the FC/ESC, secure motor mounts, and custom joints that seamlessly clamp onto the carbon fiber tubes. 
-
-# \- \*\*Assembly \& Integration:\*\* Executed the complete physical build, precision soldering for high-current propulsion systems, and organized cable management to minimize electromagnetic interference (EMI) with the compass and GPS.
-
-# \- \*\*Next Steps:\*\* Currently researching serial communication (MAVLink/Micro-XRCE-DDS) to bridge the Nvidia Jetson Nano with the MicoAir FC for ROS2-based autonomous navigation.
-
-# 
-
-# \## 📁 Repository Structure
-
-# \- `/3D\_Models`: Contains the custom .STL files for the joints, motor mounts, and central base.
-
-# \- `/Media`: Images documenting the drone's structural assembly and testing.
-
+## 📁 Repository Structure
+- `/3D_Models`: Contains the custom .STL files for the joints, motor mounts, and central base.
+- `/Media`: Images documenting the drone's structural assembly and testing.
