@@ -5,7 +5,8 @@ This repository documents the mechanical fabrication, hardware assembly, and ong
 
 ## 📸 Hardware Showcase
 
-<img width="992" height="992" alt="UAV+jetson" src="https://github.com/user-attachments/assets/c8d953bc-6454-4d7e-96dd-a246115ace4b" />
+<img width="750" height="726" alt="UAV+jetson" src="https://github.com/user-attachments/assets/94d82194-824e-401d-8a4c-4e54bd2ec523" />
+
 <img width="578" height="542" alt="UAV" src="https://github.com/user-attachments/assets/8998529b-9cf5-4a7f-8285-b8a14ddee658" />
 
 
