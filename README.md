@@ -10,7 +10,7 @@
 
 # \## 📸 Hardware Showcase
 
-# !\[Custom Drone](./Media/UAV.jpg)
+<img width="578" height="542" alt="UAV" src="https://github.com/user-attachments/assets/9e1ac3e6-6e1f-4100-a7a8-f4c01c6359a0" />
 
 # \*(Note: Displaying the custom 16mm carbon fiber frame and 3D-printed mechanical joints).\*
 
